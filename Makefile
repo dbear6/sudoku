@@ -9,7 +9,7 @@ OBJFILES  = $(OBJDIR)main.o $(OBJDIR)glut_func.o $(OBJDIR)digit_helper.o $(OBJDI
 $(PRJ) : $(OBJFILES)
 	$(CC) -o bin/$(PRJ) $(OBJFILES) $(GLLIBS) $(CFLAGS)
 	tar -cf ../$(PRJ).tar bin/*.dll $(SRCDIR)*.h $(SRCDIR)*.c obj/ Makefile .board1 GPL3.txt
-	zip -r -0 ../$(PRJ).zip  bin/*.dll $(SRCDIR)*.h $(SRCDIR)*.c obj/ Makefile .board1 GPL3.txt
+	zip -r -0 ../$(PRJ).zip  bin/*.dll $(SRCDIR)*.h $(SRCDIR)*.c obj/ Makefile .board1 LICENSE
 
 $(OBJDIR)main.o: $(SRCDIR)main.c $(SRCDIR)board_helper.h $(SRCDIR)glut_func.h
 	$(CC) -o $(OBJDIR)main.o -c $(SRCDIR)main.c $(GLLIBS) $(CFLAGS)
