@@ -15,7 +15,7 @@ unsigned int board[9][9];
 unsigned int row_selected  = 0;
 unsigned int col_selected  = 0;
 
-unsigned int screen_dim  = 600;
+unsigned int screen_dim  = 300;
 
 /*F******************************************************************
  * main(int argc, char **argv)
