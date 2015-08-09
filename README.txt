@@ -18,8 +18,8 @@ INSTALLATION
 Ensure that the FreeGlut, a C compiler and OpenGL headers are installed on your
 local system. To install simply invoke the following command:
 $ make
-The program should compile without errors. Pending an error free installation the
-binary for the game will be located in the bin folder, under the filename sudoku
+The program should compile without errors. Pending an error free installation
+the executable will be located in the bin folder, under the filename sudoku
 --------------------------------------------------------------------------------
 
 LICENSING
