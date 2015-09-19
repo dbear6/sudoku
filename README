@@ -12,12 +12,3 @@ each of the nine blocks has to contain all the numbers 1-9 within its squares.
 Each number can only appear once in a row, column or box."
 www.counton.org/sudoku/rules-of-sudoku.php
 --------------------------------------------------------------------------------
-
-INSTALLATION
---------------------------------------------------------------------------------
-Ensure that the FreeGlut, a C compiler and OpenGL headers are installed on your
-local system. To install simply invoke the following command:
-$ make
-The program should compile without errors. Pending an error free installation
-the executable will be located in the bin folder, under the filename sudoku
---------------------------------------------------------------------------------

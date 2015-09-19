@@ -6,6 +6,7 @@
 #include <windows.h>
 #endif
 
+#include "config.h"
 #include <GL/freeglut.h>
 #include "board_helper.h"
 #include "glut_func.h"
