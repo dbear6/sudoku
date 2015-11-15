@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bkeys/Devel/test/src/board_helper.hpp
+GL/freeglut.h
+-
+stdio.h
+-
+stdbool.h
+-
+digit_helper.hpp
+/home/bkeys/Devel/test/src/digit_helper.hpp
+
+/home/bkeys/Devel/test/src/digit_helper.hpp
+GL/freeglut.h
+-
+
+/home/bkeys/Devel/test/src/glut_func.hpp
+GL/freeglut.h
+-
+stdio.h
+-
+stdbool.h
+-
+board_helper.hpp
+/home/bkeys/Devel/test/src/board_helper.hpp
+
+/home/bkeys/Devel/test/src/main.cpp
+windows.h
+-
+windows.h
+-
+GL/freeglut.h
+-
+board_helper.hpp
+/home/bkeys/Devel/test/src/board_helper.hpp
+glut_func.hpp
+/home/bkeys/Devel/test/src/glut_func.hpp
+
